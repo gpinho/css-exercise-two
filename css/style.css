@@ -1,6 +1,6 @@
 body {
-  background-color: #ffffff;
-  color: #00000F;
+  background-color: #f9f9ea;
+  color: #212120;
   font-size: 16px;
 }
 
@@ -20,7 +20,7 @@ p {
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #697282;
   float: left;
   position: fixed;
   width: 100%;
@@ -28,22 +28,24 @@ nav {
 
 a {
   text-decoration: none;
+  font-size: 1.2em;
 }
 
 a:link {
-  color:#0070BB;
+  color: #ffffff;
 } /* unvisited */
 
 a:visited {
-  color:#0070BA;
+  color: #d8d8d8;
 } /* visited */
 
 a:hover {
-  color:#0070BC;
+  color: #ffffff;
+  font-weight: bold;
 } /* mouse over */
 
 a:active {
-  color:#0070BD;
+  color: blue;
 } /* selected */
 
 .logo {
